@@ -12,7 +12,7 @@ public class MyConnection {
             
             Properties prop = new Properties();
 
-            try (FileInputStream fis = new FileInputStream("src/config.properties")) {
+            try (FileInputStream fis = new FileInputStream("config.properties")) {
                 prop.load(fis);
             }
 
